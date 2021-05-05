@@ -1,5 +1,2 @@
-mac test
+编译输出的目录都在本文件夹
 
-two
-
-thres github

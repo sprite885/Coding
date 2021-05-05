@@ -1,0 +1,10 @@
+TARGET_ARCH = x86
+CONFIG += x86
+QT_BIN = C:/Qt/Qt5.9.7/5.9.7/mingw53_32/bin
+BUILD_DIR = D:/Coding/bin/build-QtAV-Release
+SOURCE_ROOT = D:/Coding/src/QtAV-master
+mkspecs_cached = win32-g++
+CONFIG += \
+    config_gl \
+    done_config_gl
+CONFIG += done_config_avutil

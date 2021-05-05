@@ -1,0 +1,265 @@
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe -o Makefile D:\Coding\src\QtAV-master\config.tests\avutil\avutil.pro -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle"
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make distclean
+> del main.o
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\main.o
+> del libavutil.a
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\libavutil.a
+> del avutil.dll
+> 找不到 D:\Coding\bin\build-QtAV-Release\config.tests\avutil\avutil.dll
+> del Makefile
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe  -spec C:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ "CONFIG -= qt debug_and_release app_bundle lib_bundle" D:/Coding/src/QtAV-master/config.tests/avutil
++ cd /d D:\Coding\bin\build-QtAV-Release\config.tests\avutil && set MAKEFLAGS=& mingw32-make
+> g++ -c -fno-keep-inline-dllexport -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -D__STDC_CONSTANT_MACROS -ID:\Coding\src\QtAV-master\config.tests\avutil -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -ID:\Coding\src\QtAV-master\contrib\dxsdk -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++  -o main.o D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp
+> D:\Coding\src\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+> compilation terminated.
+> Makefile:404: recipe for target 'main.o' failed
+> mingw32-make: *** [main.o] Error 1
+test avutil FAILED
