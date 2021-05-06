@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QString md5;
     md5.append(byt.toHex());
     qDebug()<<"MD5:"<<md5;
-
+/*
     QSettings *reg=new QSettings("HKEY_CURRENT_USER\\Software\\xczn",QSettings::NativeFormat);
 
     if(VolumeSerialNumber==reg->value("keyG:").toLongLong())
@@ -41,39 +41,41 @@ MainWindow::MainWindow(QWidget *parent) :
         delete reg;
         return ;
     }
+    */
     qDebug()<<"检测后执行";
     ui->menuFiles->setTitle(tr("文件(&F)"));
     ui->lineEdit_videoTime->setEnabled(false);
     ui->lineEdit_videoTime->setReadOnly(false);
 
+    ui->btnLast->setIcon(QIcon("../../icon/last.png"));
 /**********************系统托盘图标和菜单*************************/
 
     //恢复窗口
     openApp=new QAction("打开界面",this);
-    openApp->setIcon(QIcon("image/open.png"));
+    openApp->setIcon(QIcon("../../icon/open.png"));
     connect(openApp,SIGNAL(triggered()),this,SLOT(showNormal()));
     //托盘菜单-配置程序
     configApp=new QAction("设置",this);
-    configApp->setIcon(QIcon("image/setting.png"));
+    configApp->setIcon(QIcon("../../icon/setting.png"));
     connect(configApp,SIGNAL(triggered()),this,SLOT(on_btnSetting_clicked()));
     //托盘菜单-退出程序
     quit=new QAction("退出",this);
-    quit->setIcon(QIcon("image/exit.png"));
+    quit->setIcon(QIcon("../../icon/exit.png"));
     connect(quit,&QAction::triggered,this,&MainWindow::on_actionExit_triggered);
     //托盘菜单添加子动作
     menu=new QMenu(this);//
     menu->addAction(openApp);//
-    //menu->addMenu(QIcon("image/title16.ico"),"Test");
+    menu->addMenu(QIcon("../../icon/title16.ico"),"Test");
     menu->addAction(configApp);//
     menu->addSeparator();//分割线
     menu->addAction(quit);//
     //托盘图标
     sysTrayIcon=new QSystemTrayIcon(this);
-    sysTrayIcon->setIcon(QIcon("image/sysTray16.ico"));
+    sysTrayIcon->setIcon(QIcon("../../icon/app16.ico"));
     sysTrayIcon->setContextMenu(menu);
     sysTrayIcon->setToolTip("远程控制服务端");//鼠标指向系统图标时的文字提示
     sysTrayIcon->show();
-    //sysTrayIcon->showMessage("","双击打开控制界面",QSystemTrayIcon::Information,3000);
+    sysTrayIcon->showMessage("","双击打开控制界面",QSystemTrayIcon::Information,3000);
     connect(sysTrayIcon,&QSystemTrayIcon::activated,this,&MainWindow::ActivatedSysTrayIcon);
 
     /**********************getIP*************************/
@@ -102,12 +104,9 @@ MainWindow::~MainWindow()
 //close
 void MainWindow::closeEvent(QCloseEvent *event)
 {
-    if(sysTrayIcon->isVisible())
-    {
         this->hide();
         sysTrayIcon->showMessage("","双击打开界面",QSystemTrayIcon::Information,1000);
         event->ignore();
-    }
 }
 //全局事件
 bool MainWindow::eventFilter(QObject *obj, QEvent *event)
@@ -199,7 +198,7 @@ void MainWindow::on_actionNoLoop_triggered()
 void MainWindow::on_actionExit_triggered()
 {
     QApplication* app;
-    /*
+/*
     int i=QMessageBox::warning(this,tr("Warning"),tr("将停用iPad远程控制"),tr("确认"),tr("取消"));
     if(i)
     {
@@ -207,7 +206,7 @@ void MainWindow::on_actionExit_triggered()
         app->setQuitOnLastWindowClosed(false);
         return;
     }
-    */
+*/
     app->exit(0);
 }
 //about

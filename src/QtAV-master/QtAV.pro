@@ -92,9 +92,11 @@ include(pack.pri)
 #LIBS += -L D:\Coding\QtAV-depends-windows-x86+x64\lib
 #INCLUDEPATH += -LD:\Coding\QtAV-depends-windows-x86+x64\include
 
-INCLUDEPATH += $$PWD D:/Coding/QtAV-depends-windows-x86+x64/include
-LIBS += -L $$PWD D:/Coding/QtAV-depends-windows-x86+x64/lib
-
 CONFIG(debug, debug|release):LIBS += -L$$PWD/QtAV/lib -lQtAVd1 -lQtAVWidgetsd1
 CONFIG(release, debug|release):LIBS += -L$$PWD/QtAV/lib -lQtAV1 -lQtAVWidgets1
 #packageSet($$QTAV_VERSION, QtAV)
+
+win32: LIBS += -L$$PWD/../../QtAV-depends-windows-x86+x64/lib/ -lavcodec
+
+INCLUDEPATH += $$PWD/../../QtAV-depends-windows-x86+x64/include
+DEPENDPATH += $$PWD/../../QtAV-depends-windows-x86+x64/include

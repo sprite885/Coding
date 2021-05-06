@@ -50,24 +50,21 @@ FORMS += \
         mainwindow.ui \
     settingdialog.ui
 
-RESOURCES += \
-    resource.qrc
-
 #ICON
-RC_ICONS = "image/app48.ico"
-DISTFILES += \
-    image/bf.png \
-    image/advance.png \
-    image/bf1.png \
-    image/exit.png \
-    image/last.png \
-    image/music.png \
-    image/mute.png \
-    image/mute1.png \
-    image/next.png \
-    image/open.png \
-    image/rewind.png \
-    image/setting.png \
-    image/shutdown.png \
-    image/stop.png \
-    image/video.png
+#RC_ICONS = "image/app48.ico"
+#DISTFILES += \
+#    image/bf.png \
+ #   image/advance.png \
+  #  image/bf1.png \
+   # image/exit.png \
+    #image/last.png \
+#    image/music.png \
+ #   image/mute.png \
+  #  image/mute1.png \
+   # image/next.png \
+    #image/open.png \
+#    image/rewind.png \
+ #   image/setting.png \
+  #  image/shutdown.png \
+   # image/stop.png \
+    #image/video.png

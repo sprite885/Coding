@@ -14,10 +14,10 @@ CXX           = g++
 DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DQT_DEPRECATED_WARNINGS -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
 CFLAGS        = -fno-keep-inline-dllexport -g -Wall -W -Wextra $(DEFINES)
 CXXFLAGS      = -fno-keep-inline-dllexport -g -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads $(DEFINES)
-INCPATH       = -I..\..\src\XcPlayer -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtWidgets -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtGui -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtANGLE -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtCore -Idebug -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++ 
+INCPATH       = -I..\..\src\XcPlayer -I. -I..\..\QtAV-depends-windows-x86+x64\include -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtWidgets -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtGui -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtANGLE -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\include\QtCore -Idebug -I. -IC:\Qt\Qt5.9.7\5.9.7\mingw53_32\mkspecs\win32-g++ 
 LINKER      =        g++
 LFLAGS        =        -Wl,-subsystem,windows -mthreads
-LIBS        =        -lmingw32 -LC:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libqtmaind.a -LC:\openssl\lib -LC:\Utils\my_sql\my_sql\lib -LC:\Utils\postgresql\pgsql\lib -lshell32 C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Widgetsd.a C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Guid.a C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Cored.a 
+LIBS        =        -lmingw32 -LC:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libqtmaind.a -LC:\openssl\lib -LC:\Utils\my_sql\my_sql\lib -LC:\Utils\postgresql\pgsql\lib -lshell32 -LD:\Coding\QtAV-depends-windows-x86+x64\lib D:\Coding\QtAV-depends-windows-x86+x64\lib\libswresample.dll.a C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Widgetsd.a C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Guid.a C:\Qt\Qt5.9.7\5.9.7\mingw53_32\lib\libQt5Cored.a 
 QMAKE         = C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\qmake.exe
 IDC           = idc
 IDL           = midl
@@ -212,7 +212,7 @@ debug/moc_widget.cpp: C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
 		../../src/XcPlayer/widget.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/bin/moc.exe
-	C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\moc.exe $(DEFINES) --include debug/moc_predefs.h -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ -ID:/Coding/src/XcPlayer -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtANGLE -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore -I. -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++ -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\..\src\XcPlayer\widget.h -o debug\moc_widget.cpp
+	C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\moc.exe $(DEFINES) --include debug/moc_predefs.h -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ -ID:/Coding/src/XcPlayer -ID:/Coding/QtAV-depends-windows-x86+x64/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtANGLE -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore -I. -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++ -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\..\src\XcPlayer\widget.h -o debug\moc_widget.cpp
 
 debug/moc_titlebar.cpp: C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qwidget.h \
@@ -324,7 +324,7 @@ debug/moc_titlebar.cpp: C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QWidget
 		../../src/XcPlayer/titlebar.h \
 		debug/moc_predefs.h \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/bin/moc.exe
-	C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\moc.exe $(DEFINES) --include debug/moc_predefs.h -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ -ID:/Coding/src/XcPlayer -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtANGLE -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore -I. -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++ -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\..\src\XcPlayer\titlebar.h -o debug\moc_titlebar.cpp
+	C:\Qt\Qt5.9.7\5.9.7\mingw53_32\bin\moc.exe $(DEFINES) --include debug/moc_predefs.h -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/mkspecs/win32-g++ -ID:/Coding/src/XcPlayer -ID:/Coding/QtAV-depends-windows-x86+x64/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtANGLE -IC:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore -I. -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++ -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/i686-w64-mingw32 -IC:/Qt/Qt5.9.7/Tools/mingw530_32/i686-w64-mingw32/include/c++/backward ..\..\src\XcPlayer\titlebar.h -o debug\moc_titlebar.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -561,41 +561,14 @@ debug/widget.o: ../../src/XcPlayer/widget.cpp ../../src/XcPlayer/widget.h \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qtouchdevice.h \
 		ui_widget.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/QVariant \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QAction \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qaction.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qactiongroup.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QButtonGroup \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qbuttongroup.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QHeaderView \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qheaderview.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemview.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qframe.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qitemselectionmodel.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qrubberband.h \
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/QPalette \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QPushButton \
 		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractbutton.h
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtGui/qicon.h \
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/QToolButton \
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtWidgets/qtoolbutton.h \
+		C:/Qt/Qt5.9.7/5.9.7/mingw53_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\widget.o ..\..\src\XcPlayer\widget.cpp
 
 debug/titlebar.o: ../../src/XcPlayer/titlebar.cpp ../../src/XcPlayer/titlebar.h \

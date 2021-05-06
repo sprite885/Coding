@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-05-04T09:37:29
+# Project created by QtCreator 2021-05-06T13:40:08
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = XcPlayer
+TARGET = titlebar
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,22 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        widget.cpp \
-    titlebar.cpp
+        titlebar.cpp
 
 HEADERS += \
-        widget.h \
-    titlebar.h
-
-FORMS += \
-        widget.ui
+        titlebar.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-win32: LIBS += -L$$PWD/../../QtAV-depends-windows-x86+x64/lib/ -llibswresample.dll
-
-INCLUDEPATH += $$PWD/../../QtAV-depends-windows-x86+x64/include
-DEPENDPATH += $$PWD/../../QtAV-depends-windows-x86+x64/include
